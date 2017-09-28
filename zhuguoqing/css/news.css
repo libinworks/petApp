@@ -1,0 +1,88 @@
+/*头部开始信息*/
+#head{
+	width: 18.75rem;
+	height: 2.2rem;
+	background: #65DDD1;
+	line-height: 2.2rem;
+}
+#head .nesting{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+#head h3{
+	font-size: 0.9rem;
+	color: #fff;
+	line-height: 2.2rem;
+	display: inline-block;
+	letter-spacing: 0.0395rem;
+}
+.leftarrow{
+	display: inline-block;
+	width: 0.6rem;
+	height: 1.0rem;
+}
+.leftarrow img{
+	width: 100%;
+}
+.menu{
+	display: inline-block;
+	width: 1.0rem;
+	height: 1.0rem;
+}
+.menu img{
+	width: 100%;
+}
+
+/*body信息部分*/
+.bodys{
+	width: 18.75rem;
+	height: 31.25rem;
+	background: #EFEFEF;
+	overflow: hidden;
+}
+
+.bodys>ul>li{
+	width: 18.75rem;
+	height: 3.0rem;
+	background: #fff;
+	margin-top: 1.5%;
+	line-height: 1.5rem;
+	position: relative;
+	letter-spacing: 0.0395rem;
+}
+.bodys .ask{
+	margin-left: 2.7%;
+	width: 15.7rem;
+}
+.bodys .ask>span{
+	font-size: 0.7rem;
+	letter-spacing: 0.0395rem;
+	color: #333;
+}
+
+.bodys .ask>p{
+	font-size: 0.6rem;
+	line-height: 0.8rem;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+  	white-space: nowrap;
+  	letter-spacing: 0.0395rem;
+}
+
+.bodys>ul>li>a{
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	border-radius: 50%;
+	top: 1.25rem;
+	right: 0.5rem;
+	background: #B7B7B7;
+	letter-spacing: 0.0395rem;
+}
+.bodys>ul>li .stars{
+	background: #F87378;
+}

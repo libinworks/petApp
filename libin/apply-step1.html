@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>申请家庭1</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script type="text/javascript" src="./js/rem.js"></script>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/apply-step1.css">
+</head>
+<body>
+	<!-- 头部开始 -->
+	<div id="header">
+		<a id="add" href="./apply-index.html"><img src="../imgs/left.png" alt=""></a>
+		<h1>申请成为家养家庭</h1>
+		<a id="more" href="javascript:;"><img src="./imgs/more.png" alt=""></a>
+	</div>
+	<!-- 头部结束 -->
+	<!-- 主体部分开始 -->
+	<div id="main">
+		<div id="schedule-1">
+			<div>
+				<div class="scheduleColor"><span class="scheduleBg">1</span>家庭资料</div>
+				<div><span>2</span>开通服务</div>
+				<div><span>3</span>实名认证</div>
+				<div><span>4</span>视频认证</div>
+			</div>
+			<p></p>
+		</div>
+		<div id="minute">
+			<div><span>家庭名称：</span><input type="text"></div>
+			<div><span>家庭地址：</span><input type="text"><img src="../imgs/right.png" alt=""></div>
+			<div><span>家庭介绍：</span><textarea name="" id="" cols="30" rows="5"></textarea></div>
+		</div>
+		<div id="homeType">
+			<h3>住宅类型</h3>
+			<div class="homeLine"><div class="homeBg">套房</div></div>
+			<div><div>别墅</div></div>
+			<div><div>单间</div></div>
+		</div>
+		<div id="submit">
+			<h3>家庭环境照片</h3>
+			<a id="moreBot" href="javascript:;">
+				<span>+</span>
+				<input type="file" name="file" id="file" value="" accept="image/*" multiple onchange="imgChange('submit','moreBot')" />
+			</a>
+		</div>
+	</div>
+	 <!--遮罩层-->
+    <div class="z_mask">
+        <!--弹出框-->
+        <div class="z_alert">
+            <p>确定要删除这张图片吗？</p>
+            <p>
+                <span class="z_cancel">取消</span>
+                <span class="z_sure">确定</span>
+            </p>
+        </div>
+    </div>
+	<!-- 主体部分结束 -->
+	<a href="./apply-step2.html" id="applyBtn">提&nbsp;&nbsp;交</a>
+</body>
+<script src="./js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="./js/apply-step1.js"></script>
+</html>

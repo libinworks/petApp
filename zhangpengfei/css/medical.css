@@ -1,0 +1,142 @@
+ /*顶部导航样式开始 */
+html{
+	font-size: 20px;
+}
+#nav{
+	width: 18.75rem;
+	height: 2.2rem;
+	background:#5FDED1;
+}
+#nav h1{
+	font-size: 0.9rem;
+	color:#fff;
+	text-align: center;
+	line-height: 2.2rem;
+	letter-spacing: 0.042rem;
+}
+/* 顶部导航样式结束 */
+
+/* 滑动组件--轮播图样式开始 */
+#lun .swiper-slide img{
+	width: 100%;
+}
+/* 修改轮播图圆点样式 */
+.swiper-pagination-bullet-active{
+	background:#5FDED1; 
+}
+/* 滑动组件--轮播图样式结束 */
+
+/* 定义栏目开始 */
+#column{
+	width: 18.75rem;
+	height: 6.0rem;
+}
+#column ul li{
+	float: left;
+	width: 4.6rem;
+	text-align: center;
+}
+#column ul li a{
+	text-decoration: none;
+	color: #333333;
+	letter-spacing: 0.039rem;
+}
+#column ul li a img{
+	display: block;
+	width: 2.3rem;
+	height: 2.3rem;
+	margin-left: 1.15rem;
+	margin-top: 1.0rem;
+}
+#column ul li a p{
+	height: 0.5rem;
+	font-size: 0.5rem;
+	margin-top: 0.7rem;
+}
+/* 定义栏目结束 */
+
+/* 养宠贴士开始 */
+#hot{
+	width: 18.75rem;
+	height: 0.8rem;
+	font-size: 0.8rem;
+	color: #5FDED1;
+	letter-spacing: 0.045rem;
+	text-align: center;
+}
+/* 养宠贴士结束 */
+
+/* 图片展示开始 */
+#container{
+	width: 18.75rem;
+	height: 6.0rem;
+	margin-top: 1.0rem;
+}
+#container img{
+	width: 100%;
+}
+/* 图片展示结束 */
+
+/*养宠贴士语录 开始*/
+#wrap{
+	width: 18.75rem;
+	height: 7.6rem;
+	overflow: hidden;
+}
+#content{
+	width: 17.5rem;
+	height: 4.4rem;
+	margin: 0 auto;
+	margin-top: 0.75rem;
+}
+#content h3{
+	font-size: 0.7rem;
+	color: #000000;
+	letter-spacing: 0.05rem;
+	line-height: 0.7rem;
+}
+#content p{
+	font-size: 0.6rem;
+	color: #333;
+	letter-spacing: 0.05rem;
+	line-height: 0.95rem;
+	margin-top: 0.5rem;
+}
+/*养宠贴士语录 结束*/
+
+
+/* 页面底部 开始 */
+#footer{
+	margin-top: 0.5rem;
+	width:18.75rem;
+	height:2.45rem;
+	background: #F9F9F9;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+}
+#footer ul li{
+	width:4.6rem;
+	float: left;
+	margin-top: 0.3rem;
+	text-align: center;
+}
+#footer ul li a{
+	text-decoration: none;
+	font-size: 0.5rem;
+	color: #999;
+	letter-spacing: 0.028rem;
+}
+#footer ul li img{
+	width: 1.15rem;
+	height: 1.15rem;
+}
+#footer ul li p{
+	/*width: 1.4rem;*/
+	height: 0.7rem;
+}
+#footer ul li:nth-child(1) a{
+	color: #5FDED1;
+}
+/* 页面底部 结束 */
+

@@ -1,0 +1,307 @@
+html{
+	font-size: 20px;
+}
+*{
+	margin:0;
+	padding: 0;
+	list-style:none;
+	text-decoration: none;
+}
+/*内容部分 开始*/
+.container{
+	width: 18.75rem;
+	height: 33.35rem;
+	background: #fff;
+}
+/*顶部导航条开始*/
+.nav{
+	width: 18.75rem;
+	height: 2.2rem;
+	background: #5FDED1;
+}
+/*合作医院开始*/
+.nav-1{
+	width: 18.75rem;
+	height: 1.25rem;
+	padding-top: 0.5rem;
+	margin-bottom: 0.45rem;
+	clear:both;
+}
+/*左边的箭头小图标开始*/
+.nav-1-left{
+	width:0.6rem;
+	height: 1.25rem;
+	float: left;
+	margin-left: 0.5rem;
+}
+.nav-1-left img{
+	margin-top: 0.25rem;
+	width: 100%;
+	display: block;
+}
+/*左边的箭头小图标结束*/
+/*中间文字区域开始*/
+.nav-1-center{
+	width: auto;
+	height: 1.25rem;
+	margin:0 auto;
+	font-size: 0.9rem;
+	text-align: center;
+	line-height: 1.25rem;
+	letter-spacing: 0.5px;
+	color:#fff;
+}
+/*中间文字区域结束*/
+/*右边的圆点区域开始*/
+.nav-1-right{
+	width:1.0rem;
+	height: 1.25rem;
+	float: right;
+	margin-right: 10px;
+}
+.nav-1-right img{
+	width: 100%;
+}
+/*右边的圆点区域结束*/
+/*合作医院结束*/
+/*顶部固定的导航条结束*/
+
+/*身体部分开始*/
+.content{
+	width: 18.75rem;
+	height: auto;
+	background: #EFEFEF;
+}
+/*身体部分结束*/
+/*照片区域开始*/
+.content-img{
+	width: 18.75rem;
+	height: 8.715rem;
+}
+.content-img img{
+	width: 100%;
+}
+/*照片区域结束*/
+/*寄样日历开始*/
+.content-calendar{
+	width: 18.75rem;
+	height: 2.3rem;
+	background: #fff;
+	position: relative;
+}
+/*寄样日历结束*/
+/*头像开始*/
+.content-calendar-img{
+	width: 2.3rem;
+	height: 2.3rem;
+	position: absolute;
+	left:0.5rem;
+	bottom:0.5rem;
+}
+.content-calendar-img img{
+	width: 100%;
+}
+/*头像结束*/
+/*日历部分开始*/
+.content-calendar-text{
+	height: 100%;
+	width: 15.0rem;
+	margin-left: 3.15rem;
+	overflow: hidden;
+}
+.content-calendar-text-p1{
+	width: 100%;
+	height: 0.7rem;
+	font-size: 0.7rem;
+	color:#333;
+	margin-top:0.2rem;
+	letter-spacing: 0.79px;
+}
+.content-calendar-text-p2{
+	width: 100%;
+	height: 0.6rem;
+	margin-top:0.4rem;
+	font-size: 12px;
+	color:#666666;
+	line-height: 0.6rem;
+	letter-spacing: 0.93px;
+}
+.content-calendar-text-p2 i{
+	font-size: 0.9rem;
+	color:#333;
+}
+/*日历部分结束*/
+/*寄样服务开始*/
+.content-service{
+	width: 18.75rem;
+	height: 3.91rem;
+	margin-top:0.425rem;
+	overflow: hidden;
+	background: #fff;
+}
+.content-service-1{
+	width: 18.0rem;
+	height: 0.9rem;
+	margin-top:0.6rem;
+	margin-left: 0.5rem;
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	letter-spacing: 0.88px;
+}
+.content-service-2{
+	width: 18.0rem;
+	margin-left: 0.5rem;
+	height: 0.9rem;
+	margin-top: 0.9rem;
+	letter-spacing: 0.77px;
+}
+.content-service-2 p{
+	height: 100%;
+	font-size: 0.7rem;
+	line-height: 1.0rem;
+	clear:right;
+}
+.content-service-2 p i{
+	font-size: 0.9rem;
+}
+.content-service-2 p span{
+	float: right;
+	margin-right: 0.1rem;
+	font-size: 0.8rem;
+	color:#FB7175;
+}
+/*寄样服务结束*/
+/*其他服务开始*/
+.content-OtherServices{
+	width: 100%;
+	height: 7.55rem;
+	margin-top:0.4rem;
+	background: #fff;
+}
+.content-OtherServices1{
+	width: 18.75rem;
+	height: 3.5rem;
+	overflow: hidden;
+}
+.content-OtherServices-1-1{
+	width: 18.0rem;
+	margin-left:0.5rem;
+	margin-top:0.5rem;
+	font-size: 0.8rem;
+	color:#333;
+	letter-spacing: 0.77px;
+}
+.content-OtherServices1{
+	font-size: 
+}
+.content-OtherServices1 p{
+	display: inline-block;
+	width: 18.0rem;
+	margin-left: 0.5rem;
+	margin-top:0.85rem;
+	font-size: 0.7rem;
+	color:#333;
+	letter-spacing: 0.67px
+}
+.content-OtherServices1 p span{
+	float: right;
+	margin-right: 0.1rem;
+	font-size: 0.8rem;
+	color:#FB7175;
+}
+.content-OtherServices0{
+	width: 17.7rem;
+	height: 0.125rem;
+	margin:0 auto;
+	background: #D3D3D3;
+	opacity: .5;
+}
+.content-OtherServices2{
+	width: 100%;
+	height: 3.925rem;
+}
+.content-OtherServices-jiesong{
+	width: 100%;
+	height: 1.9rem;
+	letter-spacing: 0.67px;
+}
+.content-OtherServices2 .content-OtherServices0{
+	width: 17.7rem;
+	height: 0.075rem;
+	margin:0 auto;
+	background: #D3D3D3;
+	opacity: .5;
+}
+.content-OtherServices-jiesong p{
+	display: inline-block;
+	width: 18.0rem;
+	height: 1.0rem;
+	margin-top:0.6rem;
+	margin-left: 0.5rem;
+	font-size: 0.7rem;
+	line-height: 1.0rem;
+}
+.content-OtherServices-jiesong p span{
+	float: right;
+	margin-right: 0.1rem;
+	font-size: 0.8rem;
+	color: #FB7175;
+}
+/*其他服务结束*/
+/*提交开始*/
+.content-button{
+	width: 18.75rem;
+	height: 6.415rem;
+	background: #fff;
+	margin-top:0.5rem;
+}
+.content-button-fujin{
+	width: 100%;
+	height: 3.3rem;
+	overflow: hidden;
+}
+.content-button-fujin p{
+	height: 0.8rem;
+	margin-top:0.55rem;
+	font-size: 0.8rem;
+	color: #333;
+	margin-left: 0.5rem;
+	letter-spacing: 0.66px;
+	clear:both;
+}
+.content-button-fujin p span{
+	float: right;
+	display: inline-block;
+	width: 2.5rem;
+	height: 0.85rem;
+	font-size: 0.6rem;
+	margin-right: 0.35rem;
+	color: #666;
+	letter-spacing: 0.58px
+}
+.content-button-fujin p span img{
+	width: 0.6rem;
+	/*height: 0.55rem;*/
+	margin-top:0.05rem;
+	float: right;
+}
+.content-button-an{
+	width: 100%;
+	height: 2.0rem;
+}
+.button{
+	width: 5.0rem;
+	height: 2.0rem;
+	background: #5FDED1;
+	margin:0 auto;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 2.0rem;
+	font-size: 0.9rem;
+}
+.button a{
+	color:#fff;
+	letter-spacing: 1.02px
+}
+/*提交结束*/
+/*内容部分结束*/

@@ -1,0 +1,77 @@
+/*头部开始信息*/
+#head{
+	width: 18.75rem;
+	height: 2.2rem;
+	background: #65DDD1;
+	line-height: 2.2rem;
+}
+#head .nesting{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+#head h3{
+	font-size: 0.9rem;
+	color: #fff;
+	line-height: 2.2rem;
+	display: inline-block;
+	letter-spacing: 0.048rem;
+}
+.leftarrow{
+	display: inline-block;
+	width: 0.6rem;
+	height: 1.0rem;
+}
+.leftarrow img{
+	width: 100%;
+}
+.menu{
+	display: inline-block;
+	width: 1.0rem;
+	height: 1.0rem;
+}
+.menu img{
+	width: 100%;
+}
+
+/*body信息部分*/
+.body{
+	width: 18.75rem;
+	height: 31.25rem;
+	background: #EFEFEF;
+}
+.body h3{
+	text-align: center;
+	line-height: 1.1rem;
+	font-size: 0.8rem;
+	color: #333;
+	padding: 0.6% 0;
+	letter-spacing: 0.0395rem
+}
+
+.body>ul>li{
+	width: 18.75rem;
+	height: 1.5rem;
+	background: #fff;
+	font-size: 0.7rem;
+	line-height: 1.5rem;
+	color: #333;
+	margin-bottom: 1.5%;
+}
+
+.body>ul>li>span{
+	margin-left: 2.7%;
+	margin-right: 2.7%;
+}
+
+.body>ul>li>input{
+	display: inline-block;
+	width: 8.0rem;
+	height: 1.25rem;
+	outline: none;
+	border: 0;
+	padding: 0;
+	font-size: 0.7rem;
+}

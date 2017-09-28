@@ -1,0 +1,32 @@
+a{
+	color:#fff;
+	text-decoration: none;
+}
+/* 顶部标题栏样式*/
+.nav { width:17.75rem; height:2.2rem; background: #5FDED1; overflow:hidden; padding:0 0.5rem;  }
+.nav>div { float:left; }
+/*左边返回箭头样式*/
+.nav .go_left { margin-top:0.7rem; width:0.6rem;  display:block; }
+
+/*中间标题*/
+.nav .nav_tit { font-size:0.8rem; color:#fff; margin-top:0.7rem; margin-left:6.24rem; letter-spacing:0.07rem;  }
+/*右边更多按钮样式*/
+.nav .nav_more { float:right; margin-top:0.7rem; } 
+.nav .nav_more .nav_more_icon { width:1.1rem; height:0.8rem;  display:block; }
+
+/*内容样式*/
+.content { width:18.75rem; background:#EFEFEF; position:relative; }
+.content>div:nth-child(2) { padding-bottom:7rem; }
+.user_infor { letter-spacing:0.05rem; position:relative; width:100%;  background:#fff; margin-bottom:0.5rem; }
+.user_infor .user_infor_tit { border-bottom:0.05rem solid #B8B8B8; height:2.0rem; line-height:2.0rem; text-align:center; font-size:0.8rem; color:#5FDED1; } 
+.user_infor ul li { font-size:0.6rem; color:#151515; height:2.2rem; line-height:2.2rem; padding:0 0.5rem; border-bottom:0.05rem solid #B8B8B8; }
+.user_infor ul li>span{ font-size:0.7rem; }
+.user_infor ul li>div { float:right; }
+.user_infor ul li>div span:first-child { color:#b2b2b2; height:2.2rem; margin-right:0.2rem; }
+.user_infor ul li>div span:nth-child(2) { display:inline-block; height:1.2rem; line-height:1.2rem; text-indent:center; padding:0.1rem 0.4rem; border-radius:0.3rem; background:#5FDED1; color:#fff; }
+
+/*提交按钮样式*/
+.cm_btn { letter-spacing:0.4rem; position: absolute; bottom:0rem; left:50%; margin-left:-3.0rem;padding:0 1rem; height:2.0rem; border-radius:1.0rem; background:#5FDED1; font-size:1.0rem; color:#fff; line-height:2.0rem;  }
+
+
+

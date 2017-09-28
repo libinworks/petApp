@@ -1,0 +1,66 @@
+
+/* 顶部标题栏样式*/
+.nav { width:17.75rem; height:2.2rem; background: #5FDED1; overflow:hidden; padding:0 0.5rem;  }
+.nav>div { float:left; }
+/*左边返回箭头样式*/
+.nav .go_left { margin-top:0.75rem; width:0.6rem; display:block; }
+
+/*中间标题*/
+.nav .nav_tit { font-size:0.8rem; color:#fff; margin-top:0.7rem; margin-left:6.3rem; letter-spacing:0.07rem;  }
+/*右边更多按钮样式*/
+.nav .nav_more { float:right; margin-top:0.7rem; } 
+.nav .nav_more .nav_more_icon { width:1.1rem; height:0.8rem;  display:block; }
+
+.bac { width:18.75rem; height:0.5rem; background:#EFEFEF; }
+
+/*内容布局*/
+.content { letter-spacing:0.03rem; width:17.75rem; padding:0 0.5rem; }
+.chose_time { height:2.0rem; line-height:2.0rem; font-size:0.7rem; border-bottom:0.05rem solid #F8F8F8; }
+.chose_time span:last-child { float:right; margin-top:0.65rem; }
+.chose_time span img{
+	width:0.6rem;
+}
+/*选择宠物*/
+.chose_animal { font-size:0.6rem; padding:0.5rem 0; border-bottom:0.05rem solid #F8F8F8; }
+.chose_animal ul { overflow:hidden; margin-top:0.5rem; }
+.chose_animal ul li { border-radius:50%; float:left; width:2.3rem; height:2.3rem; margin-right:0.7rem; border:0.05rem solid #F8F8F8; }
+.chose_animal ul li img { width:2.3rem; height:2.3rem; }
+.chose_animal ul li:last-child span{ width:2.3rem; height:2.3rem; line-height:2.3rem; text-align:center; font-size:1.5rem; color:#999; display:block; }
+
+/*选择附件服务*/
+.other_ser { padding:0.5rem 0; overflow:hidden;  }
+.other_ser>p { font-size:0.6rem; color:#868686; margin-bottom:0.8rem; }
+.other_ser>div { font-size:0.7rem; overflow:hidden; margin-bottom:0.8rem; }
+.other_ser>div:last-child { margin-bottom:0; }
+.other_ser>div div:first-child { float:left; }
+.other_ser>div div:last-child { float:right; padding-bottom:0.05rem; } 
+.other_ser>div div:last-child span { font-size:0.6rem; display:inline-block;  width:5.0rem; text-align:right;  }
+.other_ser>div div:last-child .reduce, .other_ser>div div:last-child .plus { width:0.8rem; height:0.8rem; line-height:0.8rem; text-align:center; border:0.05rem solid #979797; }
+.other_ser>div div:last-child .plus { margin-left:-0.05rem; }
+.other_ser>div div:last-child .count { width:1.4rem; height:0.8rem; line-height:0.8rem; text-align:center; padding:0 0.5rem; border:0.05rem solid #979797; margin-left:-0.05rem; }
+
+/*选择保障服务*/
+.server { letter-spacing:0.1rem; width:17.75rem; height:2.2rem; padding:0.5rem 0.5rem; font-size:0.6rem; }
+.server>p:first-child { margin-bottom:0.9rem; }
+.server>p:last-child .scir { display:inline-block; width:0.5rem; height:0.5rem; background:#FB7175; border-radius:50%; margin-right:0.4rem; } 
+/*寄养留言*/
+.leav_mess { letter-spacing:0.03rem; width:17.75rem; padding:1.0rem 0.5rem; font-size:0.7rem; }
+.leav_mess>p:first-child { margin-bottom:0.5rem; }
+.leav_mess>textarea { margin-bottom:0.5rem; width:17.5rem; height:5.0rem; background:#EFEFEF; text-align:left; border:0; }
+.leav_mess>p:last-child { font-size:0.7rem; }
+.leav_mess>p:last-child em { display:inline-block; width:0.5rem; height:0.5rem; border:0.05rem solid #666; margin-right:0.2rem; }
+.leav_mess>p:last-child span { letter-spacing:0.05rem; font-size:0.6rem; color:#FC8C90; }
+
+/*底部提交订单样式*/
+.price { letter-spacing:0.04rem; position:fixed; bottom:0; font-size:0.7rem; width:17.75rem; height:1.7rem; line-height:1.7rem; padding:0.5rem; border-top:0.05rem solid #ccc; background:#FAFAFA; }
+.price .allmoney { float:left; }
+.price .allmoney span { color:#FB7175; font-size:0.8rem; }
+.price .sendOder { letter-spacing:0.1rem; float:right; width:4.0rem; height:1.7rem; line-height:1.7rem; text-align:center; background:#5FDED1; border-radius:0.75rem; color:#fff; }
+
+
+
+
+
+
+
+

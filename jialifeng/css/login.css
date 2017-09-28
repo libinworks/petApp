@@ -1,0 +1,158 @@
+/* 页面背景 开始 */
+#bg{
+	width: 18.75rem;
+	position: relative;
+}
+#bg img{
+	display: block;
+	width: 100%;
+}
+/* 页面背景 结束 */
+
+/* 页面 logo 开始 */
+#logo{
+	width: 18.75rem;
+	height: 3.6rem;
+	text-align: center;
+	position: absolute;
+	top: 3.6rem;
+	left: 0;
+}
+#logo img{
+	width: 7.1rem;
+	height: 7.05rem; 
+}
+/* 页面 logo 结束 */
+
+/* 账号密码登录 开始 */
+#login{
+	width: 18.75rem;
+	height: 10.0rem;
+	position: absolute;
+	top: 11.8rem;
+}
+
+#login form{
+	width: 15.0rem;
+	height: 100%;
+	margin: 0 auto;
+}
+#login form input{
+	position:relative;
+	width: 100%;
+	height: 2.0rem;
+	margin-top: 1.5rem;
+	outline: none;
+	opacity: 0.8;
+	background: #FFFFFF;
+	border: 0.0rem;
+	border-radius: 1.0rem;
+	font-size: 0.7rem;
+	color: #333333;
+	letter-spacing: 0.04rem;
+	padding-left: 1.0rem;
+}
+#login form input:first-child{
+	margin-top:0;	
+}
+#login form>div input{
+	margin-bottom: 1.5rem;
+}
+#login form a input{
+	background: #5FDED1;
+	color: #666;
+	padding-left: 0;
+	width: 15.9rem;
+}
+#login form img{
+	width: 1.1rem;
+	position: absolute;
+	top: 4.2rem;
+	right: 0;
+}
+#login form div{
+	position:relative;
+	height:2.0rem;
+	margin-bottom:1.5rem;
+	margin-top: 1.5rem;
+}
+#login form div img{
+	top:50%;
+	margin-top:-0.55rem;
+}
+/* 账号密码登录 结束 */
+
+/* 忘记密码 开始 */
+#pwd{
+	width: 18.75rem;
+	height: 0.7rem;
+	position: absolute;
+	top: 22.4rem;
+	text-align: center;
+}
+#pwd a{
+	width: 6.95rem;
+	text-decoration: none;
+	font-size: 0.7rem;
+	color: #FFFFFF;
+	letter-spacing: 0.04rem;
+}
+/* 忘记密码 结束 */
+
+/* 使用 第三方账号 开始 */
+#party{
+	width: 18.75rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 25rem;
+	text-align: center;
+}
+#party a{
+	width: 7.1rem;
+	font-size: 0.6rem;
+	color: #FFFFFF;
+	letter-spacing: 0.041rem;
+	text-decoration: none;
+}
+/* 使用 第三方账号 结束 */
+
+/* 微信 qq 新浪 登录 开始 */
+#partylogin{
+	width: 18.75rem;
+	height: 2.0rem;
+	position: absolute;
+	top: 27.5rem;
+}
+#partylogin div{
+	width: 9rem;
+	margin: 0 auto;
+}
+#partylogin ul li{
+	float: left;
+	width: 2.0rem;
+	margin-right: 1rem;
+}
+#partylogin ul li img{
+	width: 100%;
+}
+/* 微信 qq 新浪 登录 结束 */
+
+/* 还没有 账号？ 注册 开始 */
+#reg{
+	width: 18.75rem;
+	height: 2.45rem;
+	text-align: center;
+	background: #5FDED1;
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+#reg a{
+	text-decoration: none;
+	width: 5.1rem;
+	line-height: 2.45rem;
+	font-size: 0.6rem;
+	color: #FFFFFF;
+	letter-spacing: 0.034rem;
+}
+/* 还没有 账号？ 注册 结束 */

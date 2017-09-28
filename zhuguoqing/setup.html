@@ -1,0 +1,110 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>无标题</title>
+	<!-- 设置viewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script type="text/javascript" src="./layui/layui.js"></script>
+
+	<!-- 引入重置CSS样式表 -->
+	<link rel="stylesheet" href="./css/reset.css">
+
+
+	<!-- 引入index.css文件 -->
+	<link rel="stylesheet" href="./css/setup.css">
+	<link rel="stylesheet" href="./layui/css/layui.css">
+
+	<!-- 引入使页面支持rem的JS文件 -->
+	<script src="./js/rem.js"></script>
+</head>
+<body>
+	<!-- 头部开始信息 -->
+	<div id="head">
+		<div class="nesting">
+			<!-- 图标左箭头 -->
+			<a href="../zhangpengfei/personal.html" class="leftarrow">
+				<img src="./images/lcon/1_1.png">
+			</a>
+			<h3>设 置</h3>
+			<!-- 右侧菜单栏 -->
+			<a href="" class="menu">
+				<img src="./images/lcon/baidiandian.png">
+			</a>
+		</div>
+	</div>
+	<!-- body信息开始-->
+	<div class="bodys">	
+		<ul class="inform">
+			<li>
+				<a href="../jiangxiaolong/safe.html">
+					账号设置
+					<img src="./images/lcon/2_1.png">
+				</a>
+			</li>
+			<li>
+				<a href="../sunqian/templates/xiaoxishezhi.html">
+					新消息提醒
+					<img src="./images/lcon/2_1.png">
+				</a>
+			</li>
+		</ul>
+		<ul class="inform">
+			<li>
+				<a href="">
+					产品建议
+					<img src="./images/lcon/2_1.png">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					隐私
+					<img src="./images/lcon/2_1.png">
+				</a>
+			</li>
+		</ul>
+		<ul class="inform">
+			<li>
+				<a href="javajquery:;">
+					仅限Wi-Fi下显示图标
+					<!-- 切换开关 -->
+					<form class="layui-form" action="">
+						<input type="checkbox" name="switch" lay-skin="switch"  lay-text="ON|OFF">
+					</form>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					图片缓存文件大小
+					<span>12MB</span>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					视频缓存文件大小
+					<span>12MB</span>
+				</a>
+			</li>
+		</ul>
+
+		<!-- 安全退出 -->
+		<a href="" class="safeexit">安全退出</a>
+	</div>
+</body>
+<!-- 引入jquery文件 -->
+<script src="./js/jquery.js"></script>
+<!-- 自己的JS文件 -->
+<script src="./js/setup.js"></script>
+<script type="text/javascript">
+	//Demo
+	layui.use('form', function(){
+	  var form = layui.form;
+	  
+	  //监听提交
+	  form.on('submit(formDemo)', function(data){
+	    layer.msg(JSON.stringify(data.field));
+	    return false;
+	  });
+	});
+</script>
+</html>

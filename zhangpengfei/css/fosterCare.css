@@ -1,0 +1,162 @@
+/* 顶部导航样式开始 */
+html{
+	font-size: 20px;
+}
+body{
+	background:#EFEFEF;
+}
+#nav{
+	width: 18.75rem;
+	height: 2.2rem;
+	background:#5FDED1;
+}
+#nav h1{
+	font-size: 0.9rem;
+	color:#fff;
+	text-align: center;
+	line-height: 2.2rem;
+	letter-spacing: 0.036rem;
+}
+/* 顶部导航样式结束 */
+
+/* 定义栏目开始 */
+#cloumn{
+	width:18.75rem;
+	height: 5.0rem;
+	background:#fff;
+}
+#cloumn ul li{
+	float:left;
+	width: 4.6rem;
+	margin-top: 1.0rem;
+	text-align: center;
+}
+#cloumn ul li a{
+	text-decoration: none;
+}
+#cloumn ul li img{
+	width:2.3rem;
+	height:2.3rem;
+}
+#cloumn ul li p{
+	height:0.5rem;
+	color: #333;
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+	letter-spacing: 0.041rem;
+	margin-top: 0.4rem;
+}
+/* 定义栏目结束 */
+
+/* 广告图开始 */
+#container{
+	width: 18.75rem;
+	height: 7.165rem;
+	background: #fff;
+	margin-top: 0.5rem;
+	overflow: hidden;
+}
+#container .banner{
+	width: 15.39rem;
+	height: 5.785rem;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+}
+#container .banner img{
+	width: 100%;
+}
+/* 广告图结束 */
+
+/* 推荐家庭 机构寄养 开始 */
+#main{
+	width: 18.75rem;
+	height: 15.46rem;
+	margin-top: 0.5rem;
+	background: #fff;
+	overflow: hidden;
+}
+.title-tab{
+	width: 13.2rem;
+	height: 1.565rem;
+	margin: 0 auto;
+	margin-top: 0.75rem;
+}
+.title-tab a{
+	display: block;
+	float: left;
+	width: 6.4rem;
+	height:1.565rem;
+	background: #fff;
+	color: #86E2D9;
+	border: 0.05rem solid #5FDED1;
+	letter-spacing: 0.034rem;
+	font-size: 0.7rem;
+	line-height:1.565rem;
+	text-align: center;
+	text-decoration: none;
+}
+.title-tab #family{
+	border-radius: 0.6rem 0 0 0.6rem;
+}
+.title-tab #mechanism{
+	border-radius: 0 0.6rem 0.6rem 0;
+}
+.title-tab a.title-tab-active{
+	background:#5FDED1;
+	color:#fff;
+}
+#main .content{
+	width:18.75rem;
+	height: 11.7rem;
+	margin-top: 0.4rem;
+}
+#main .content img{
+	display: block;
+	float: left;
+	width: 5.53rem;
+	height:5.27rem;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+#main .content div{
+	display: none;
+}
+#main .content div.content-active{
+	display: block;
+}
+/* 推荐家庭 机构寄养 结束 */
+
+/* 页面底部 开始 */
+#footer{
+	margin-top: 0.5rem;
+	width:18.75rem;
+	height:2.45rem;
+	background: #F9F9F9;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+}
+#footer ul li{
+	width:4.6rem;
+	float: left;
+	margin-top: 0.3rem;
+	text-align: center;
+}
+#footer ul li a{
+	text-decoration: none;
+	font-size: 0.5rem;
+	color: #999;
+	letter-spacing: 0.028rem;
+}
+#footer ul li img{
+	width: 1.15rem;
+	height: 1.15rem;
+}
+#footer ul li p{
+	/*width: 1.4rem;*/
+	height: 0.7rem;
+}
+#footer ul li:nth-child(2) a{
+	color: #5FDED1;
+}
+/* 页面底部 结束 */

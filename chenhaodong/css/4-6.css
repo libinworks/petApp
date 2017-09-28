@@ -1,0 +1,135 @@
+body{
+	background:#ECECEC;
+}
+a{
+	color:black;
+}
+#header{
+	width:18.75rem;
+	height:2.2rem;
+	background:#5FDED1;
+	overflow:hidden;
+}
+#header>a:nth-of-type(1)>img{
+	float:left;
+	width:0.6rem;
+	margin-top:0.75rem;
+	margin-left:0.5rem;
+}
+#header>a:nth-of-type(2)>img{
+	float:right;
+	width:1.2rem;
+	height:1.0rem;
+	margin-top:0.75rem;
+	margin-right:0.55rem;
+}
+#header>ul{
+	width:14.5rem;
+	height:1.65rem;
+	/*border:1px solid red;*/
+	margin:0 auto;
+	margin-top:0.35rem;
+}
+#header>ul>li{
+	margin:0 auto;
+	line-height:1.65rem;
+	width:4.5rem;
+	height:1.65rem;
+	color:white;
+	font-size:0.9rem;
+	letter-spacing:0.051rem;
+}
+#header>ul>.shift{
+	background:#FBD775;
+	border-radius:1.0rem;
+}
+/*头部结束*/
+/*选项开始*/
+#menu{
+	width:18.75rem;
+	height:3.5rem;
+	background:white;
+}
+#menu>ul>li{
+	float:left;
+	width:4.0rem;
+	height:2.5rem;
+	background:#FFEBB3;
+	margin-left:0.55rem;
+	margin-top:0.5rem;
+	border-radius:0.4rem;
+	text-align:center;
+	/*margin:0 auto;*/
+	line-height:2.5rem;
+	letter-spacing: 0.045rem;
+	font-size:0.8rem;
+}
+/*选项结束*/
+/*内容开始*/
+#content{
+	width:18.75rem;
+}
+#content>.title{
+	width:18.75rem;
+	height:6.65rem;
+	background:white;
+	margin-top:0.5rem;
+}
+.first{
+	width:18.75rem;
+	height:4.5rem;
+	border-bottom:1px solid #E9E9E9;
+}
+.first>img{
+	width:3.5rem;
+	float:left;
+	margin-top:0.5rem;
+	margin-left:0.5rem;
+
+}
+.first>p{
+	font-size:0.7rem;
+	display:inline-block;
+	margin-top:0.75rem;
+	margin-left:0.5rem;
+	letter-spacing:0.051rem;
+}
+.first>.doctor{
+	font-size:0.5rem;
+	margin-left:0.5rem;
+	margin-top:0.25rem;
+	color:#C5C5C5;
+	float:left;
+}
+.first>.affirm{
+	float:right;
+	width:4.0rem;
+	height:0.9rem;
+	font-size:0.6rem;
+	margin-right:0.5rem;
+	background:#CBF897;
+	text-align:center;
+	color:#899977;
+	letter-spacing: 1.0.051rem;
+	border-radius:0.4rem;
+	line-height:0.9rem;
+}
+.first>.good{
+	font-size:0.6rem;
+	float:left;
+	margin-left:0.5rem;
+	margin-top:0.25rem;
+	color:#C5C5C5;
+}
+.first>.star>img{
+	width:4.75rem;
+	height:0.75rem;
+	float:left;
+	margin-top:0.15rem;
+}
+.first>.msg{
+	font-size:0.6rem;
+	color:#757575;
+	line-height:0.8rem;
+	letter-spacing:0.105rem;
+}

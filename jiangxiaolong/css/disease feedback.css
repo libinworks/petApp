@@ -1,0 +1,101 @@
+body{
+	background:#EFEFEF;
+}
+textarea{
+	resize:none;
+}
+/*font-family: PingFangSC-Medium;*/
+/*头部开始*/
+#header{
+	height:2.2rem;
+	width:18.75rem;
+	background-color:#5FDED1;
+	position:relative;
+}
+#header>h1{
+	padding:0 5.0rem;
+	font-size:0.9rem;
+	color:#fff;
+	line-height:2.2rem;
+	text-align:center;
+	margin:auto;
+	/*font-weight:bold;*/
+	letter-spacing:0.04rem;
+}
+#header>a{
+	display:block;
+	position:absolute;
+	height:2.2rem;
+	top:0;
+	line-height:2.2rem;
+}
+#add{
+	left:0.5rem;
+	width:0.6rem;
+}
+#more{
+	right:0.5rem;
+	width:1.0rem;
+}
+#header>a>img{
+	width:100%;
+	margin:auto auto;
+}
+/*头部结束*/
+/*意见反馈开始*/
+.opinion{
+	/*width:3.4rem;*/
+	height:1.1rem;
+	margin-top:0.25rem;
+	/*border:1px solid red;*/
+	margin-left:0.5rem;
+	letter-spacing: 0.04rem;
+}
+.opinion>h1{
+	font-size:0.8rem;
+	text-align:left;
+	line-height:1.1rem;
+	color:#333;
+	letter-spacing: 0.04rem;
+	/*font-weight:bold;*/
+}
+.opinion-box{
+	width:18.75rem;
+	height:8.25rem;
+	border:1px solid #ccc;
+	margin-top:0.25rem;
+	outline:none;
+	padding:0;
+	box-sizing:border-box;
+}
+/*意见反馈结束*/
+
+/*投诉开始*/
+.Complaints{
+	/*width:3.4rem;*/
+	height:1.1rem;
+	margin-top:0.25rem;
+	margin-left:0.5rem;
+}
+.Complaints>h1{
+	font-size:0.8rem;
+	text-align:left;
+	line-height:1.1rem;
+	color:#333;
+	letter-spacing: 0.04rem;
+}
+.Complaints-box{
+	width:18.75rem;
+	height:8.25rem;
+	border:1px solid #ccc;
+	margin-top:0.25rem;
+	/*font-size:0.6rem;*/
+	color:#666;
+	outline:none;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    <title>启动页</title>
+    <link rel="stylesheet" href="./libin/css/reset.css">
+    <link href="./libin/public/css/iSlider.css" rel="stylesheet">
+    <link rel="stylesheet" href="./libin/css/start.css">
+</head>
+<body>
+<div id="iSlider-wrapper">
+	<a href="./jialifeng/login.html">跳过</a>
+</div>
+<div id="hidden-space" style="display:none">
+	<div id="startLast">
+		<a href="./jialifeng/login.html">立即体验</a>
+    	<img src="./libin/imgs/startr-4.png" alt="">
+	</div>
+	
+</div>
+<script type="text/javascript" src="./libin/public/js/iSlider.js"></script>
+<script type="text/javascript">
+    var list = [
+        {
+            content: './libin/imgs/startr-1.png'
+        },
+        {
+            content: './libin/imgs/startr-2.png'
+        },
+        {
+            content: './libin/imgs/startr-3.png'
+        },
+        // {
+        //     content: './imgs/startr-4.png'
+        // },
+        {
+            content: document.querySelector('#hidden-space > div')
+        },
+        
+    ];
+    var S = new iSlider(document.getElementById('iSlider-wrapper'), list);
+</script>
+</body>
+</html>

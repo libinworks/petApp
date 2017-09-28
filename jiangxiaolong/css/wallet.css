@@ -1,0 +1,168 @@
+/*头部开始*/
+#header{
+	height:2.2rem;
+	width:18.75rem;
+	background-color:#5FDED1;
+	position:relative;
+}
+#header>h1{
+	padding:0 5.0rem;
+	font-size:0.9rem;
+	color:#fff;
+	line-height:2.2rem;
+	text-align:center;
+	margin:0 auto;
+	letter-spacing: 0.04rem;
+}
+#header>a{
+	display:block;
+	position:absolute;
+	height:2.2rem;
+	top:0;
+	line-height:2.2rem;
+}
+#add{
+	left:0.5rem;
+	width:0.6rem;
+}
+#more{
+	right:0.5rem;
+	width:1.0rem;
+}
+#header>a>img{
+	width:100%;
+	margin:auto auto;
+}
+/*头部结束*/
+body{
+	background:#EEEEEE;
+}
+.box-one{
+	width:18.75rem;
+	height:5.2rem;
+	background:#fff;
+	margin-top:0.75rem;
+	float:left;
+	letter-spacing:0.04rem;
+}
+.balance{
+	width:1.5rem;
+	height:1.0rem;
+	/*border:1px solid red;*/
+	margin:auto;
+	margin-top:0.95rem;
+	letter-spacing: 0.04rem;
+	font-size:0.7rem;
+	text-align: center;
+	line-height: 1.0rem;
+	letter-spacing:0.04rem;
+}
+.zero{
+	width:1.65rem;
+	height:1.0rem;
+	/*border:1px solid red;*/
+	margin:auto;
+	font-size:0.7rem;
+	text-align: center;
+	line-height: 1.0rem;
+	color:#FF0000;
+	margin-top:1.4rem;
+	letter-spacing:0.04rem;
+}
+.box-two{
+	width:18.8rem;
+	height:2.3rem;
+	background:#fff;
+	float:left;
+	margin-top:0.8rem;
+}
+.top-ups{
+	width:2.3rem;
+	height:0.85rem;
+	/*border:1px solid red;*/
+	letter-spacing: 0.04rem;
+	float:left;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 0.85rem;
+	margin-top:0.75rem;
+	margin-left:4.0rem;
+}
+.withdrawals{
+	width:2.3rem;
+	height:0.85rem;
+	/*border:1px solid red;*/
+	letter-spacing:0.04rem;
+	float:left;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 0.85rem;
+	margin-top:0.75rem;
+	margin-left:8.15rem;
+}
+.box-three{
+	width:18.75rem;
+	height:1.8rem;
+	/*border:1px solid red;*/
+	float:left;
+	font-size: 0.6rem;
+	margin-top:0.75rem;
+	background:#fff;
+}
+/*支付宝*/
+.bao{
+	width:2.95rem;
+	height:0.85rem;
+	/*border:1px solid red;*/
+	float:left;
+	margin-left:0.5rem;
+	margin-top:0.5rem;
+	text-align:left;
+	line-height:0.85rem;
+	letter-spacing: 0.04rem;
+}
+.jian{
+	width:0.75rem;
+	height:1.0rem;
+	/*border:1px solid red;*/
+	float:right;
+	margin-right:0.5rem;
+	margin-top:0.5rem;
+	text-align:center;
+	line-height:1.0rem;
+	letter-spacing: 0.04rem;
+}
+/*微信*/
+.box-four{
+	width:18.75rem;
+	height:1.8rem;
+	/*border:1px solid red;*/
+	float:left;
+	font-size: 0.6rem;
+	margin-top:0.25rem;
+	background:#fff;
+}
+.wei{
+	width:2.3rem;
+	height:0.85rem;
+	/*border:1px solid red;*/
+	float:left;
+	margin-left:0.5rem;
+	margin-top:0.5rem;
+	text-align:left;
+	line-height:0.85rem;
+	letter-spacing:0.04rem;
+}
+.jian2{
+	width:0.75rem;
+	height:1.0rem;
+	/*border:1px solid red;*/
+	float:right;
+	margin-right:0.5rem;
+	/*15.7rem*/
+	margin-top:0.5rem;
+	text-align:center;
+	line-height:1.0rem;
+	letter-spacing:0.04rem;
+}
+

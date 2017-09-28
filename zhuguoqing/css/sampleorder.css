@@ -1,0 +1,137 @@
+/*头部开始信息*/
+#head{
+	width: 18.75rem;
+	height: 2.2rem;
+	background: #65DDD1;
+	line-height: 2.2rem;
+}
+#head .nesting{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+#head h3{
+	font-size: 0.9rem;
+	color: #fff;
+	line-height: 2.2rem;
+	display: inline-block;
+	letter-spacing: 0.0395rem;
+}
+.leftarrow{
+	display: inline-block;
+	width: 0.6rem;
+	height: 1.0rem;
+}
+.leftarrow img{
+	width: 100%;
+}
+.menu{
+	display: inline-block;
+	width: 1.0rem;
+	height: 1.0rem;
+}
+.menu img{
+	width: 100%;
+}
+
+/*body信息部分*/
+.body{
+	width: 18.75rem;
+	height: 31.25rem;
+	background: #EFEFEF;
+}
+/*寄样支付信息*/
+.body .payment{
+	width: 18.75rem;
+	height: 1.5rem;
+	background: #fff;
+	line-height: 1.5rem;
+	margin-bottom:1.5%;
+}
+.body .payment>ul{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+.body .payment>ul> .active{
+	font-weight: bold;
+	color: #000;
+	letter-spacing: 0.0395rem;
+}
+.body .payment>ul>li{
+	color: #4A4A4A;
+	font-size: 0.6rem;
+	letter-spacing: 0.0395rem;
+}
+.body .payment>ul>li>a{
+	color: #4A4A4A;
+	display: block;
+	padding: 0 0.5rem
+	letter-spacing: 0.0395rem;
+}
+
+/*寄样宠物信息*/
+.confirm{
+	width: 17.75rem;
+	height: auto;
+	margin: 0 auto;
+}
+.confirm>ul{
+	display: none;
+}
+.confirm .pet{
+	display: block;
+}
+.pet>li{
+	width: 17.75rem;
+	height: 4.0rem;
+	background: #fff;
+	margin-bottom: 1.5%;
+	letter-spacing: 0.0395rem;
+}
+
+/*左侧宠物信息*/
+.left-in{
+	width: 10.0rem;
+	height: 100%;
+	float: left;
+	line-height: 4.0rem;
+}
+.left-in>a{
+	display: block;
+	width: 2.3rem;
+	height: 2.3rem;
+	margin: 0.85rem 2.7%;
+	float: left;
+	letter-spacing: 0.0395rem;
+}
+.left-in>a img{
+	display: block;
+	width: 100%;
+}
+.left-in>span{
+	margin-bottom: 1.0rem;
+	font-size: 0.7rem;
+	color: #4A4A4A;
+	margin: 0;
+}
+
+/*右侧确认信息*/
+.rightside{
+	float: right;
+	margin-right: 2.7%;
+	text-align: right;
+}
+.rightside>p{
+	font-size: 0.7rem;
+	color: #FA7E80;
+	margin: 0.6rem 0;
+}
+.rightside>a{
+	font-size: 0.6rem;
+	color: #333;
+}

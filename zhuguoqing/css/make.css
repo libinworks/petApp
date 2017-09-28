@@ -1,0 +1,80 @@
+/*头部开始信息*/
+#head{
+	width: 18.75rem;
+	height: 2.2rem;
+	background: #65DDD1;
+	line-height: 2.2rem;
+}
+#head .nesting{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+#head h3{
+	font-size: 0.9rem;
+	color: #fff;
+	line-height: 2.2rem;
+	display: inline-block;
+	letter-spacing: 0.0395rem;
+}
+.leftarrow{
+	display: inline-block;
+	width: 0.6rem;
+	height: 1.0rem;
+}
+.leftarrow img{
+	width: 100%;
+}
+.menu{
+	display: inline-block;
+	width: 1.0rem;
+	height: 1.0rem;
+}
+.menu img{
+	width: 100%;
+}
+
+/*body信息部分*/
+.bodys{
+	width: 18.75rem;
+	height: 31.25rem;
+	background: #EFEFEF;
+	overflow: hidden;
+}
+.bodys h3{
+	text-align: center;
+	line-height: 1.1rem;
+	font-size: 0.8rem;
+	color: #333;
+	padding: 0.6% 0;
+	letter-spacing: 0.0395rem;
+}
+
+.bodys>ul>li{
+	width: 18.75rem;
+	height: 1.5rem;
+	background: #fff;
+	font-size: 0.7rem;
+	line-height: 1.5rem;
+	color: #333;
+	margin-bottom: 1.5%;
+}
+
+.bodys>ul>li>span{
+	margin-left: 2.7%;
+	margin-right: 2.7%;
+	letter-spacing: 0.0395rem;
+}
+/*填写信息*/
+.bodys>ul>li>input{
+	display: inline-block;
+	width: 8.0rem;
+	height: 1.25rem;
+	outline: none;
+	border: 0;
+	padding: 0;
+	font-size: 0.7rem;
+	letter-spacing: 0.0395rem;
+}

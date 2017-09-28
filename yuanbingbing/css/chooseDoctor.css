@@ -1,0 +1,248 @@
+html{
+	font-size: 20px;
+}
+*{
+	list-style: none;
+	text-decoration: none;
+}
+/*容器开始*/
+.container{
+	width: 18.75rem;
+	height: 33.35rem;
+	background: #efefef;
+	clear:both;
+}
+/*顶部导航条开始*/
+.nav{
+	width: 18.75rem;
+	height: 2.2rem;
+	background: #5FDED1;
+}
+/*合作医院开始*/
+.nav-1{
+	width: 18.75rem;
+	height: 1.25rem;
+	padding-top: 0.5rem;
+	margin-bottom: 0.45rem;
+	clear:both;
+}
+/*左边的箭头小图标开始*/
+.nav-1-left{
+	width:0.6rem;
+	height: 1.25rem;
+	float: left;
+	margin-left: 0.5rem;
+}
+.nav-1-left img{
+	width: 100%;
+}
+/*左边的箭头小图标结束*/
+/*中间文字区域开始*/
+.nav-1-center{
+	width: 3.85rem;
+	height: 1.25rem;
+	margin:0 auto;
+	font-size: 0.9rem;
+	text-align: center;
+	line-height: 1.25rem;
+	color:#fff;
+	letter-spacing: 1.02px;
+}
+/*中间文字区域结束*/
+/*右边的圆点区域开始*/
+.nav-1-right{
+	width:1.0rem;
+	height: 1.25rem;
+	float: right;
+	margin-right: 10px;
+}
+.nav-1-right img{
+	width: 100%;
+}
+/*右边的圆点区域结束*/
+/*合作医院结束*/
+/*顶部固定的导航条结束*/
+/*选择科室开始*/
+.main{
+	width: 18.75rem;
+	height: 31.15rem;
+	background: #efefef;
+}
+.leftsidebar{
+	width: 4.69rem;
+	height: 31.15rem;
+	float: left;
+	background: #fff;
+}
+.leftsidebar-1{
+	width: 3.4rem;
+	height:14.7rem;
+	margin-left: 0.55rem;
+}
+.leftsidebar-1 ul li{
+	width: 1.75rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+	font-size: 0.8rem;
+	letter-spacing: 1.04px;
+}
+.leftsidebar-1 ul li a{
+	display: inline-block;
+	width: 100%;
+	color:#787878;
+}
+.leftsidebar-1 ul .leftsidebar-1-select{
+	width: 3.9rem;
+	height: 2.2rem;
+	font-size: 0.8rem;
+	text-align: center;
+	line-height: 2.2rem;
+	text-align: left;
+}
+.leftsidebar-1 ul .left-color{
+	color:#5FDED1;
+}
+
+/*选择科室结束*/
+
+/*右边内容区域开始*/
+.rightContent{
+	width: 13.5rem;
+	height: 31.15rem;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+/*右边点击区域导航条开始*/
+.right-nav{
+	width: 13.5rem;
+	height: 1.9rem;
+	clear:both;
+	background: #fff;
+}
+.right-nav-1{
+	width: 11.35rem;
+	height: 0.8rem;
+	padding: 0.55rem 1.075rem;
+}
+.right-nav-1 a{
+	color:#333;
+}
+/*级别开始*/
+.right-nav-text1{
+	display: inline-block;
+	width: 3.0rem;
+	height: 100%;
+	font-size: 0.8rem;
+	float: left;
+	letter-spacing: 0.93px
+}
+.right-nav-text1 i{
+	font-size: 0.8rem;
+}
+/*级别结束*/
+/*有号开始*/
+.right-nav-text2{
+	display: inline-block;
+	width: 1.75rem;
+	height: 100%;
+	font-size: 0.8rem;
+	float: left;
+	margin-left: 1.8rem;
+	letter-spacing: 0.93px
+}
+/*有号结束*/
+/*日期开始*/
+.right-nav-text3{
+	display: inline-block;
+	width: 2.0rem;
+	height: 100%;
+	font-size: 0.8rem;
+	letter-spacing: 0.93px;
+	float: right;
+}
+/*日期结束*/
+/*右边点击区域导航条结束*/
+/*内容部分开始*/
+.rightMain{
+	width: 13.5rem;
+	height: 28.25rem;
+	position: absolute;
+	top:2.4rem;
+	display: none;
+}
+.right-block{
+	display: block;
+}
+.rightMain li{
+	width: 13.5rem;
+	height: 4.35rem;
+	margin-top:0.5rem;
+	background: #fff;
+	overflow: hidden;
+}
+.rightMain>.rightMain-li-1{
+	margin-top:0;
+}
+.rightMain-li{
+	width: 12.5rem;
+	height: 3.0rem;
+	margin:0.625rem 0.5rem;
+	clear:both;
+}
+.rightMain-li>a{
+	display: inline-block;
+	width: 2.35rem;
+	height: 2.35rem;
+	margin-top:0.325rem;
+	float: left;
+}
+.rightMain-li a img{
+	width: 100%;
+}
+/*文字区域开始*/
+.rightMain-text{
+	width: 3.365rem;
+	height: 3.0rem;
+	float: left;
+	font-size: 0.7rem;
+	margin-left: 0.925rem;
+}
+.rightMain-text .rightMain-text-1{
+	font-size: 0.8rem;
+	color:#333;
+	letter-spacing: 0.79px;
+	display: inline-block;
+	width: 3.75rem;
+}
+.rightMain-text span{
+	display: inline-block;
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	line-height: 20px;
+	color:#8e8e8e;
+	letter-spacing: 0.79px;
+}
+/*文字区域结束*/
+/*按钮区域开始*/
+.rightMain-button{
+	width: 3.0rem;
+	height: 1.5rem;
+	background:  #5FDED1;
+	border-radius: 5.0rem;
+	margin:0.75rem 0;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 1.5rem;
+	letter-spacing: 0.91px;
+	float: right;
+}
+.rightMain-button>a{
+	color: #fff;
+}
+/*按钮其区域结束*/
+/*内容部分结束*/
+/*右边内荣区域结束*/
+/*容器结束*/

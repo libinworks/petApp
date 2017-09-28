@@ -1,0 +1,29 @@
+
+/* 顶部标题栏样式*/
+.nav { width:17.75rem; height:2.2rem; background: #5FDED1; overflow:hidden; padding:0 0.5rem;  }
+.nav>div { float:left; }
+/*左边返回箭头样式*/
+.nav .go_left { margin-top:0.7rem; width:0.6rem; height:0.75rem;  display:block; }
+
+/*中间标题*/
+.nav .nav_tit { font-size:0.8rem; color:#fff; margin-top:0.7rem; margin-left:6rem; letter-spacing:0.07rem;  }
+/*右边更多按钮样式*/
+.nav .nav_more { float:right; margin-top:0.7rem; } 
+.nav .nav_more .nav_more_icon { width:1.1rem; height:0.8rem;  display:block; }
+
+
+/*内容样式*/
+.content { letter-spacing:0.06rem; width:18.75rem; background:#EEEEEE; height:30.0rem; padding-top:0.5rem; }
+
+.content ul li { font-size:0.7rem; height:2.0rem; line-height:2.0rem; background:#fff; border-bottom:0.05rem solid #D3D3D3; padding:0 0.5rem; }
+.content ul li:first-child { margin-bottom:0.5rem; }
+.content ul li>div { position:relative; float:right; width:1.7rem; height:0.8rem; border:0.05rem solid #979797; border-radius:0.4rem; margin-top:0.6rem; }
+.content ul li>div .cir { position:absolute; width:0.8rem; height:0.8rem; border:0.05rem solid #979797; border-radius:50%; margin-top:-0.05rem; margin-left:-0.05rem; }
+/*当前激活状态*/
+.content ul li .active { background:#65DDD1; border-color:#65DDD1; }
+.content ul li .active .cir { right:-0.05rem; background:#fff; }
+
+/*最后一个li样式*/
+.content ul li:last-child p { float:right; }
+.content ul li:last-child p .sanj { position:relative; top:0.2rem; display:inline-block; border:0.25rem solid transparent; border-top-color:#000; }
+

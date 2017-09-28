@@ -1,0 +1,181 @@
+a{
+	text-decoration: none;
+}
+/* 顶部导航样式开始 */
+html{
+	font-size: 20px;
+}
+body{
+	background:#EFEFEF;
+}
+#nav{
+	width: 18.75rem;
+	height: 2.2rem;
+	background:#5FDED1;
+	position:relative;
+}
+#nav h1{
+	font-size: 0.9rem;
+	color:#fff;
+	text-align: center;
+	line-height: 2.2rem;
+	letter-spacing: 0.042rem;
+}
+#nav a{
+	height: 0.85rem;
+	font-size: 0.6rem;
+	color: #fff;
+	letter-spacing: 0.04rem;
+	text-decoration: none;
+	position: absolute;
+	right: 0.75rem;
+	bottom: 0.4rem;
+}
+/* 顶部导航样式结束 */
+
+/* 个人资料开始 */
+#mydate{
+	width: 18.75rem;
+	height: 6.1rem;
+	background: #fff;
+	margin-top:0.5rem;
+	overflow: hidden;
+}
+#mydate .top{
+	width: 17.75rem;
+	height: 3.05rem;
+	margin-left: 0.5rem;
+	margin-top: 1.5rem;
+}
+#mydate .top .img,#mydate .top .name{
+	float: left;
+}
+#mydate .top .name p{
+	font-size: 0.6rem;
+	color: #333;
+	letter-spacing: 0.04rem;
+	margin-left: 0.6rem;
+	margin-top: 0.25rem;
+}
+#mydate .top .name p img{
+	width: 0.45rem;
+	height: 0.45rem;
+	margin-left: 0.1rem;
+}
+#mydate .top .name p:first-child{
+	margin-top: 0.4rem;
+}
+#mydate .top .img img{
+	width: 3.04rem;
+	height: 3.05rem;
+}
+#mydate .top .right{
+	float: right;
+	height:0.7rem;
+	width:0.6rem;
+	margin-top:1rem;
+	background:url(../../imgs/right.png) no-repeat;
+	background-size:cover;
+}
+#mydate .bottom{
+	width: 18.75rem;
+	height: 0.85rem;
+}
+#mydate .bottom a{
+	text-decoration: none;
+	font-size: 0.4rem;
+	color: #333333;
+	letter-spacing: 0.79px;
+	float: right;
+	line-height: 0.85rem;
+	margin-right: 0.5rem;
+}
+#mydate .bottom a img{
+	width: 0.8rem;
+	height: 0.8rem;
+	display: block;
+	float: left;
+}
+/* 个人资料结束 */
+
+/* 宠圈开始 */
+#circle{
+	width: 18.75rem;
+	height: 4.25rem;
+	background: #fff;
+	margin-top: 0.5rem;
+}
+#circle .left-title{
+	width: 2.5rem;
+	height: 4.25rem;
+	float: left;
+}
+#circle .left-title p{
+	width: 1.5rem;
+	height: 1.0rem;
+	font-size: 0.7rem;
+	color: #333333;
+	letter-spacing: 0.04rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+#circle .right-content{
+	width: 16.25rem;
+	height: 4.25rem;
+	float: left;
+}
+#circle .right-content ul li{
+	float: left;
+	margin-top: 1.0rem;
+	/*margin-right: 3rem;*/
+	width: 4.05rem;
+}
+#circle .right-content ul li img{
+	width: 1.4rem;
+	height: 1.4rem;
+}
+#circle .right-content ul li p{
+	height: 0.85rem;
+	font-size: 0.6rem;
+	color: #333333;
+	letter-spacing: 0.034rem;
+	margin-top: 0.3rem;
+	margin-left: 0.05rem;
+}
+/* 宠圈结束 */
+
+
+/* 页面底部 开始 */
+#footer{
+	margin-top: 0.5rem;
+	width:18.75rem;
+	height:2.45rem;
+	background: #F9F9F9;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+}
+#footer ul li{
+	width:4.6rem;
+	float: left;
+	margin-top: 0.3rem;
+	text-align: center;
+}
+#footer ul li a{
+	text-decoration: none;
+	font-size: 0.5rem;
+	color: #999;
+	letter-spacing: 0.028rem;
+}
+#footer ul li img{
+	width: 1.15rem;
+	height: 1.15rem;
+}
+#footer ul li p{
+	/*width: 1.4rem;*/
+	height: 0.7rem;
+}
+#footer ul li:nth-child(4) a{
+	color: #5FDED1;
+}
+/* 页面底部 结束 */

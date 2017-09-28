@@ -1,0 +1,90 @@
+body{
+	position:relative;
+	height:33.3rem;
+	background:#efefef;
+}
+/*头部开始*/
+#header{
+	height:2.2rem;
+	width:100%;
+	background-color:#5FDED1;
+	position:relative;
+}
+#header>h1{
+	padding:0 5.0rem;
+	font-size:0.9rem;
+	color:#fff;
+	line-height:2.2rem;
+	text-align:center;
+	margin:0 auto;
+	letter-spacing: 0.036rem;
+}
+#header>a{
+	display:block;
+	position:absolute;
+	height:2.2rem;
+	top:0;
+	line-height:2.2rem;
+}
+#add{
+	left:0.5rem;
+	width:0.6rem;
+}
+#more{
+	right:0.5rem;
+	width:1.0rem;
+}
+#header>a>img{
+	width:100%;
+	margin:auto auto;
+}
+/*头部结束*/
+/*主体部分开始*/
+#main{
+	width:15.0rem;
+	height:22.5rem;
+	margin:0 auto;
+	margin-top: 3.0rem;
+	position:relative;
+	box-shadow:0 0 10px 4px #8F8F8F;
+}
+#main h3{
+	font-size: 0.9rem;
+	height:2.4rem;
+	width:10.2rem;
+	line-height:2.4rem;
+	text-align:center;
+	color:#fff;
+	position:absolute;
+	left:50%;
+	margin-left: -5.1rem;
+	top:-1.2rem;
+	background:#FB7175;
+	border-radius:0.5rem;
+	letter-spacing: 0.036rem;
+}
+#main p{
+	font-size: 0.6rem;
+	color:#9D9D9D;
+	padding:0.5rem;
+	padding-top:2.0rem;
+	margin-top:2.4rem;
+}
+#applyBtn{
+	display:block;
+	text-decoration: none;
+	width:5.0rem;
+	height:1.7rem;
+	background:#5FDED1;
+	border-radius:1.7rem;
+	line-height:1.7rem;
+	text-align:center;
+	font-size:0.7rem;
+	color:#fff;
+	position:absolute;
+	left:50%;
+	margin-left:-2.0rem;
+	bottom:1.125rem;	
+	letter-spacing: 0.051rem;
+}
+/*主体部分结束*/

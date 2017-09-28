@@ -1,0 +1,108 @@
+/*头部开始信息*/
+#head{
+	width: 18.75rem;
+	height: 2.2rem;
+	background: #65DDD1;
+	line-height: 2.2rem;
+}
+#head .nesting{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+#head h3{
+	font-size: 0.9rem;
+	color: #fff;
+	line-height: 2.2rem;
+	display: inline-block;
+	letter-spacing: 0.0395rem;
+}
+.leftarrow{
+	display: inline-block;
+	width: 0.6rem;
+	height: 1.0rem;
+}
+.leftarrow img{
+	width: 100%;
+}
+.menu{
+	display: inline-block;
+	width: 1.0rem;
+	height: 1.0rem;
+}
+.menu img{
+	width: 100%;
+}
+
+/*body信息部分*/
+.bodys{
+	width: 18.75rem;
+	height: 31.25rem;
+	background: #EFEFEF;
+	overflow: hidden;
+}
+
+.bodys>ul>li{
+	width: 17.75rem;
+	height: 4.0rem;
+	background: #fff;
+	margin: auto;
+	margin-top: 1.5%;
+}
+
+/*左侧宠物信息*/
+.left-in{
+	width: 14.0rem;
+	height: 100%;
+	float: left;
+	/*line-height: 4.0rem;*/
+}
+.left-in>a{
+	display: block;
+	width: 2.3rem;
+	height: 2.3rem;
+	margin: 0.85rem 5%;
+	float: left;
+}
+.left-in>a img{
+	display: block;
+	width: 100%;
+}
+.comment{
+	float: left;
+	margin-top: 10%;
+}
+.comment>p{
+	/*float: left;*/
+	letter-spacing: 0.0395rem;
+	font-size: 0.7rem;
+}
+.comment>span{
+	margin-bottom: 1.0rem;
+	font-size: 0.6rem;
+	color: #4A4A4A;
+	margin: 0;
+	letter-spacing: 0.0395rem;
+}
+
+/*右侧确认信息*/
+.rightside{
+	float: right;
+	margin-right: 2.7%;
+	text-align: right;
+	line-height: 4.0rem;
+}
+
+.rightside>a{
+	display: inline-block;
+	text-align: center;
+	line-height: 1.0rem;
+	border-radius: 0.5rem;
+	background: #65DDD1;
+	font-size: 0.6rem;
+	color: #fff;
+	width:2.5rem;
+	height: 1.0rem;
+}

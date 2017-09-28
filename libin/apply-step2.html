@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>申请家庭2</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script type="text/javascript" src="./js/rem.js"></script>
+	<script type="text/javascript" src="./layui/layui.js"></script>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/apply-step2.css">
+	<link rel="stylesheet" href="./layui/css/layui.css">
+</head>
+<body>
+	<!-- 头部开始 -->
+	<div id="header">
+		<a id="add" href="./apply-step1.html"><img src="../imgs/left.png" alt=""></a>
+		<h1>申请成为家养家庭</h1>
+		<a id="more" href="javascript:;"><img src="./imgs/more.png" alt=""></a>
+	</div>
+	<!-- 头部结束 -->
+	<!-- 主体部分开始 -->
+	<div id="main">
+		<div id="schedule-1">
+			<div>
+				<div><span>1</span>家庭资料</div>
+				<div class="scheduleColor"><span class="scheduleBg">2</span>开通服务</div>
+				<div><span>3</span>实名认证</div>
+				<div><span>4</span>视频认证</div>
+			</div>
+			<p></p>
+		</div>
+		<div id="explain">
+			<p>注：请设置要开通的寄养服务和价格，申请的寄养服务会在视频认证是审核并锁定。</p>
+			<a href="javascript:;">开通服务说明</a>
+		</div>
+		<h3>寄养服务</h3>
+		<form class="layui-form" action="">
+			<ul id="check">
+				<li><span>小型犬</span><input type="checkbox" name="switch" lay-skin="switch"  lay-text="ON|OFF"></li>
+				<li><span>中型犬</span><input type="checkbox" name="switch" lay-skin="switch"  lay-text="ON|OFF"></li>
+				<li><span>大型犬</span><input type="checkbox" name="switch" lay-skin="switch"  lay-text="ON|OFF"></li>
+				<li><span>猫</span><input type="checkbox" name="switch" lay-skin="switch"  lay-text="ON|OFF"></li>
+			</ul>
+		</form>
+		<h3>其他服务</h3>
+		<form class="layui-form" action="">
+			<div id="others">
+				<ul>
+					<li><span>洗澡</span><input type="checkbox" name="switch" lay-skin="switch"  lay-text="ON|OFF"></li>
+					<li><span>接/送</span><input type="checkbox" name="switch" lay-skin="switch"  lay-text="ON|OFF"></li>
+					<li><span>美发</span><input type="checkbox" name="switch" lay-skin="switch"  lay-text="ON|OFF"></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+	<!-- 主体部分结束 -->
+	<a href="./apply-step3.html" id="applyBtn">下一步</a>
+</body>
+<script type="text/javascript" src="./js/apply-step2.js"></script>
+</html>

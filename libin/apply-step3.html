@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>申请家庭3</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<script type="text/javascript" src="./js/rem.js"></script>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/apply-step3.css">
+</head>
+<body>
+	<!-- 头部开始 -->
+	<div id="header">
+		<a id="add" href="./apply-step2.html"><img src="../imgs/left.png" alt=""></a>
+		<h1>申请成为家养家庭</h1>
+		<a id="more" href="javascript:;"><img src="./imgs/more.png" alt=""></a>
+	</div>
+	<!-- 头部结束 -->
+	<!-- 主体部分开始 -->
+	<div id="main">
+		<div id="schedule-1">
+			<div>
+				<div><span>1</span>家庭资料</div>
+				<div><span>2</span>开通服务</div>
+				<div class="scheduleColor"><span class="scheduleBg">3</span>实名认证</div>
+				<div><span>4</span>视频认证</div>
+			</div>
+			<p></p>
+		</div>
+		<div id="status">
+			<ul>
+				<li><span>真 实 姓 名：</span><input type="text"  placeholder="请输入有效身份证号"></li>
+				<li><span>身份证号码：</span><input type="text" placeholder="请输入真实姓名"></li>
+				<li>
+					<span>身份证照片：</span>
+					<p>注：请上传有效的身份证正面和本人照片</p>
+					<div id="idCard">
+						<a id="idCardText" href="javascript:;">
+							<span>身份证正反面照</span>
+							<input type="file" name="file" id="file" value="" accept="image/*" multiple onchange="imgChange('idCard','idCardText','file')" />
+						</a>
+					</div>
+					<div id="self">
+						<a id="selfText" href="javascript:;">
+							<span>本人正反面照</span>
+							<input type="file" name="file" id="file1" value="" accept="image/*" multiple onchange="imgChange('self','selfText','file1')" />
+						</a>
+					</div>
+				</li>
+			</ul>	
+		</div>
+	</div>
+	<!-- 主体部分结束 -->
+	<a href="./apply-step4.html" id="applyBtn">下一步</a>
+</body>
+<script type="text/javascript" src="./js/apply-step3.js"></script>
+</html>
